@@ -1,0 +1,22 @@
+prepend.py is a way to add licensing and author information to many source
+files in an easy, cross-platform manner.  You can specify the license you
+wish to attach and if you also want to include additional metadata such as
+the author name.  In addition, you can specify the language (python, C,
+matlab, etc) being used for the files so that the proper comment symbols
+can be used.
+
+A neat feature in this script is the ability to detect the shebang line
+(e.g., #!/usr/bin/csh) of a script and to skip over that line when
+prending text.
+
+This is an early version of this script, and there are many ways to improve
+this such as automatic detection of source language, additional metadata,
+more licenses, and the ability to specify your own license from another
+source.  Maybe even allow the printing of the text to standard output,
+and to allow a user to specify the comment string in case of an unknown
+language (or maybe have the configuration be available as importable python
+modules?).
+
+
+Author: Ben Root		Date: June 17, 2010
+
